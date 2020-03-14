@@ -10,8 +10,7 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
-    "disconnect": "^1.2.1",
-    "https": "^1.0.0",
+    "netlify-lambda": "^1.6.3",
     "node-sass": "^4.13.1",
     "oauth-1.0a": "^2.2.6",
     "querystring": "^0.2.0",
@@ -26,7 +25,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lambda": "netlify-lambda serve src/functions"
   },
   "eslintConfig": {
     "extends": "react-app"
