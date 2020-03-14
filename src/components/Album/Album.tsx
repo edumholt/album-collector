@@ -1,8 +1,16 @@
 import React from 'react';
 
+import { getRelease, getAllMyReleases } from '../../services/discogsService';
+
 interface AlbumProps {}
 
 export const Album: React.FC<AlbumProps> = props => {
+  getRelease(176125).then(obj => {
+    console.log('obj: ', obj);
+  });
+
+  getAllMyReleases('edumholt');
+
   return (
     <>
       <h1>Album</h1>

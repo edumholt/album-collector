@@ -10,11 +10,17 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "disconnect": "^1.2.1",
+    "https": "^1.0.0",
     "node-sass": "^4.13.1",
+    "oauth-1.0a": "^2.2.6",
+    "querystring": "^0.2.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-scripts": "3.4.0",
-    "typescript": "~3.7.2"
+    "typescript": "~3.7.2",
+    "url": "^0.11.0",
+    "zlib": "^1.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -36,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/oauth": "^0.9.1"
   }
 }
